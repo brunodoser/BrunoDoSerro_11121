@@ -95,3 +95,91 @@ h1 {
     opacity: 0;
   }
 }
+/*Onglet recherche de la ville*/
+.proj-search {
+    display: flex;
+    justify-content: center;
+    background-color: #eaeaea;
+    padding: 20px 0;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .presentation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 40px 40px;
+    margin-bottom: 50px;
+  }
+  .presentation__book {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .presentation__explore {
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    text-align: center;
+    color: #FFF;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    transition: background-color 250ms;
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+  }
+  .presentation__explore:hover {
+    opacity: 0.8;
+    box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
+  }
+  
+  /*Fonctionnement*/
+  .function__title {
+    margin: 0 0 20px 22px;
+  }
+  
+  .function {
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+  .function h2 {
+    margin: 0 0 30px 0;
+  }
+  .function__choice {
+    margin: 0 20px 20px 40px;
+    font-weight: bold;
+    background-color: #F6F6F6;
+    padding: 30px 50px 30px 18px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    width: 300px;
+    max-height: 78px;
+  }
+  .function__choice:hover {
+    background-color: #f5edff;
+  }
+  .function__choice:hover .fas {
+    color: #9356DC;
+  }
+  .function__choice__number {
+    width: 18px;
+    height: 18px;
+    padding: 4px 4px;
+    border-radius: 50%;
+    background-color: #9356DC;
+    color: #FFF;
+    position: absolute;
+    top: 30%;
+    left: -4%;
+  }
+  
