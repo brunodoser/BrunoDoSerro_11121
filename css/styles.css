@@ -266,20 +266,14 @@ h1 {
 
 /* animation coeur test*/
 
-.heart_1:hover {
+.heart_1:hover,.heart__2:hover {
   animation: fill 1s ease-out;
   background: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
-.heart__2:hover {  
-  animation: fill 1s ease-out;
-  background: linear-gradient(#FF79DA, #9356DC);
-  -webkit-background-clip: text; 
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
+
 
 
 .restaurants__card .restaurants__card__content .heart {
